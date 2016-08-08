@@ -1,38 +1,23 @@
+
 (function () {
 'use strict';
 
 angular.module('productsTree')
-.factory('productsCompService', function () {
+.factory('productsCompService', function ($http, $q, config) {
     var Service = {
 
-        checkContains: function (arr, el) {
-            var contains = function(needle) {
-                var findNaN = needle !== needle;
-                var indexOf;
+        getProducts: function () {
+            var deferred = $q.defer();
 
-                if(!findNaN && typeof Array.prototype.indexOf === 'function') {
-                    indexOf = Array.prototype.indexOf;
-                } else {
-                    indexOf = function(needle) {
-                        var i = -1, index = -1;
+            $http.get(config.api.products).success(function (response, status, headers, config) {
 
-                        for(i = 0; i < this.length; i++) {
-                            var item = this[i];
+                deferred.resolve(response, status, headers, config);
+            }).error(function (response, status, headers, config) {
+                
+                deferred.reject(response, status, headers, config);
+            });
 
-                            if((findNaN && item !== item) || item === needle) {
-                                index = i;
-                                break;
-                            }
-                        }
-
-                        return index;
-                    };
-                }
-
-                return indexOf.call(this, needle) > -1;
-            };
-
-            return contains.call(arr, el);
+            return deferred.promise;
         }
     };
 

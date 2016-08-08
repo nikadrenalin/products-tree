@@ -9,7 +9,7 @@
 
     .constant('config', {
       api: {
-      	products: 'app/main/data/products.json'
+        products: 'app/main/data/products.json'
       }
     });
 

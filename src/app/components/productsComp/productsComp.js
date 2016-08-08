@@ -8,22 +8,19 @@
     controller: productsCompController
   });
 
-  function productsCompController(MainRestService, productsCompService) {
+  function productsCompController(productsCompService) {
     var ctrl = this;
 
-    ctrl.test = '123';
     ctrl.products = [];
     ctrl.batchProducts = [];
     ctrl.total = 0.00;
     ctrl.checkProduct = checkProduct;
 
-    MainRestService.getProducts()
+    productsCompService.getProducts()
     .then(function (data) {
         if (data.products.length > 0) {
 
           ctrl.products = data.products;
-
-          console.log(ctrl.products);
         }
     });
 
