@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+    "id": 1,
+    "title": "Product One",
+    "date": "07-03-2016",
+    "amount": "1000.00"
+  },
+    {
+      "id": 2,
+      "title": "Product Two",
+      "date": "07-03-2016",
+      "amount": "1500.27"
+    },
+    {
+      "id": 3,
+      "title": "Product Three",
+      "date": "07-03-2016",
+      "amount": "1100.00"
+    },
+    {
+      "id": 4,
+      "title": "Product Four",
+      "date": "07-03-2016",
+      "amount": "1001.00"
+    },
+    {
+      "id": 5,
+      "title": "Product Five",
+      "date": "07-03-2016",
+      "amount": "2760.20"
+    },
+    {
+      "id": 6,
+      "title": "Product Six",
+      "date": "07-03-2016",
+      "amount": "512.00"
+    },
+    {
+      "id": 7,
+      "title": "Product Seven",
+      "date": "07-03-2016",
+      "amount": "100.86"
+    },
+    {
+      "id": 8,
+      "title": "Product Eight",
+      "date": "07-03-2016",
+      "amount": "798.55"
+    }
+  ]
+}

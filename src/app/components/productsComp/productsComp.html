@@ -1,0 +1,86 @@
+<div class="app app-aside-folded">
+
+    <!-- content -->
+    <div id="content" class="app-content" role="main">
+        <div class="app-content-body app-content-full fade-in-up h-full ">
+
+            <div id="pageContent" class="hbox hbox-auto-xs hbox-auto-sm fade-in-up">
+
+
+                <div id="WiSecure_batchCol" class="col w-xxl b-r">
+                    <div class="vbox">
+                        <div class="col-header wrapper-sm bg-white b-b ">
+                            <i class="fa fa-circle-o-notch text-success-lter pull-right fa-spin" style="display: none;"></i>
+                            <h4 class="h4">Products</h4>
+                        </div>
+                        <div class="row-row">
+                            <div class="cell">
+                                <div class="cell-inner">
+                                    <div class="wrapper-sm">
+                                        <div class="WiSecure_productsList">
+                                            <product
+                                            ng-repeat="product in $ctrl.products"
+                                            ng-click="$ctrl.checkProduct(product)"
+                                            product="product">
+                                            </product>
+                                            <!-- <div 
+                                            ng-repeat="product in $ctrl.products" 
+                                            class="panel wrapper-sm b-b WiSecure_productSelectContainer text-ellipsis bg-info"
+                                            ng-click="$ctrl.checkProduct(product)">
+                                                <span class="pull-right">$ {{product.amount}}</span>
+                                                {{product.title}}
+                                                <b>{{product.date}}</b>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-footer wrapper-sm bg-white b-t">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="toggle-col col w-xxl b-r">
+
+                    <div class="vbox">
+                        <div class="col-header wrapper-sm bg-white b-b ">
+                            <h4 class="h4">Batch</h4>
+                        </div>
+
+                        <div class="row-row">
+                            <div class="cell">
+                                <div class="cell-inner">
+                                    <div class="wrapper-sm">
+                                        <div class="WiSecure_batchContainer">
+                                            <div  
+                                            class="run-item panel bg-white wrapper-sm b-b WiSecure_productContainer" 
+                                            ng-repeat="product in $ctrl.batchProducts track by $index">
+                                                {{product.title}}
+                                                <span class="pull-right">
+                                                    $ {{product.amount}}</span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-footer wrapper-sm bg-white b-t">
+                            <h4 class="h4 m-t-sm m-b-xs">Total: 
+                                <span class="pull-right">$
+                                    <span class="WiSecure_batchTotal">{{$ctrl.total | number:2}}</span>
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>

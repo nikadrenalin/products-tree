@@ -1,0 +1,550 @@
+.navbar-collapse{
+  padding-left: 0;
+}
+.navbar-brand img{
+  height: 30px;
+  min-height: 30px;
+}
+.navbar-brand span{
+  color: #fff;
+}
+.overflow-hidden{
+  overflow: hidden!important;
+}
+
+.page-login{
+  background: #fff;
+}
+
+.page-login body{
+  background: url(../img/login-bkg.jpg) bottom 140px center no-repeat #fff;
+}
+
+.page-login .login-form{
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.page-login .login-form .form-logo{
+  height: 40px;
+  width: auto;
+}
+
+#report-col{
+  width: 0px;
+  overflow: hidden;
+}
+
+#report-col .tab-content{
+  opacity: 0;
+}
+
+#report-col, .run-item{
+-webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+#report-col.w-xxl{
+  width: 360px;
+}
+
+#report-col.w-xxl .tab-content{
+  opacity: 1;
+}
+
+#report-col.w-xxxxl{
+  width: 800px;
+}
+
+#report-col.w-xxxxl .tab-content{
+  opacity: 1;
+}
+
+#upload-col{
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+#upload-col.upload-col-folded{
+  width: 0px;
+}
+
+#upload-col.upload-col-folded .vbox{
+  display: none;
+}
+
+.close-report-col i:hover{
+  color: #f05050;
+  cursor: pointer;
+}
+
+.process-code-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.run-item:hover{
+  cursor: pointer;
+  border-color: #36A5B3;
+}
+.WiSecure_batchCol.col-condensed, .WiSecure_distributionCol.col-condensed{
+  width: 220px!important;
+}
+.col.toggle-col{
+  -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.table > tbody > tr.new-file-row td{
+ border-top: 10px solid #ffffff;   
+}
+
+.table > tbody > tr.new-file-row:first-child td{
+    border-top: 1px solid #ffffff;   
+}
+
+.icon-close:hover{
+	color: #f05050;
+}
+
+.bg-light .table-striped > tbody > tr:nth-child(odd) > td, .bg-light  .table-striped > tbody > tr:nth-child(odd) > th {
+	background-color: #EDF1F2;
+}
+
+.nav.nav-tabs.bg-info > li{
+	margin-bottom: 0;
+}
+.nav.nav-tabs.bg-info li a{
+	border-bottom: none;
+}
+.nav.nav-tabs.bg-info li.active a{
+	background-color: #278692!important;
+}
+.nav.nav-tabs li.active a{
+  color: #36A5B3;
+}
+
+.schema-build-table{}
+
+.schema-build-table td.schema-col{
+  width: 220px;
+  min-width: 220px;
+}
+
+.schema-col .btn-group > .btn{
+  float: none;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+.qq-upload-list{
+  margin: 0;
+  padding: 0;
+}
+
+.opacity-100{ opacity: 1; }
+.opacity-90{ opacity: 0.9; }
+.opacity-80{ opacity: 0.8; }
+.opacity-70{ opacity: 0.7; }
+.opacity-60{ opacity: 0.6; }
+.opacity-50{ opacity: 0.5; }
+.opacity-40{ opacity: 0.4; }
+.opacity-30{ opacity: 0.3; }
+.opacity-20{ opacity: 0.2; }
+.opacity-10{ opacity: 0.1; }
+.opacity-0{ opacity: 0; }
+
+#report-col{
+  width: 0px;
+  overflow: hidden;
+}
+
+#report-col .tab-content{
+  opacity: 0;
+}
+
+#report-col, .run-item{
+-webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+#report-col.w-xxl{
+  width: 360px;
+}
+
+#report-col.w-xxl .tab-content{
+  opacity: 1;
+}
+
+#report-col.w-xxxxl{
+  width: 800px;
+}
+
+#report-col.w-xxxxl .tab-content{
+  opacity: 1;
+}
+
+.close-report-col i:hover{
+  color: #f05050;
+  cursor: pointer;
+}
+
+.process-code-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.run-item:hover{
+  cursor: pointer;
+  border-color: #36A5B3;
+}
+.WiSecure_batchCol.col-condensed, .WiSecure_distributionCol.col-condensed{
+  width: 220px!important;
+}
+.col.toggle-col{
+  -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.table > tbody > tr.new-file-row td{
+ border-top: 10px solid #eaeff0;   
+}
+
+.table > tbody > tr.new-file-row:first-child td{
+    border-top: 1px solid #eaeff0;   
+}
+
+.wis-table{
+}
+.wis-table .wis-col{
+  width: 220px;
+  min-width: 220px
+}
+
+.wis-table .wis-col-padding{
+  padding: 0;
+}
+
+.referenceScreen, .wis-table .wis-col .btnOptions, .wis-table .wis-col .matchOptions, .wis-table .wis-col .resultTitle{
+  display: none;
+}
+
+.referenceScreen .wis-table .wis-col .wis-cells.titleSelectActive .wis-cell{
+  opacity: 0.6;
+}
+
+.referenceScreen .wis-table .wis-col .wis-cell:first-child{
+  border-top: 1px solid #dee5e7
+}
+
+.referenceScreen .wis-table .wis-col .wis-cell.first-cell{
+  opacity: 1;
+}
+
+.referenceScreen .wis-table .wis-col .wis-cell {
+  min-height: 51px;
+}
+
+.referenceScreen .wis-table .wis-col .wis-cell.first-cell.active{
+  border-width: 2px;
+  border-color: #36A5B3;
+  font-weight: bold;
+  color: #36A5B3;
+}
+
+
+.referenceStep2{
+  display: none;
+}
+
+.association-input{
+  min-height: 44px;
+}
+
+.WiSecure_compileScreen{
+  display: none;
+}
+
+
+.error-dash{
+  display: none;
+}
+
+/************************************************************************************************************************************************
+// BUTTONS
+************************************************************************************************************************************************/
+.addProductProvider { display: none; }
+
+/************************************************************************************************************************************************
+// VIEWS
+************************************************************************************************************************************************/
+.WiSecure_viewExceptions .hide-viewExceptions,
+.WiSecure_viewCompile .hide-viewCompile { display: none!important;}
+
+.show-viewExceptions,
+.show-inline-viewExceptions,
+.show-viewCompile,
+.show-inline-viewCompile
+{ display: none!important; }
+
+.WiSecure_viewExceptions .show-viewExceptions,
+.WiSecure_viewCompile .show-viewCompile { display: block!important;}
+
+.WiSecure_viewExceptions .show-inline-viewExceptions,
+.WiSecure_viewCompile .show-inline-viewCompile { display: inline-block!important;}
+
+
+/************************************************************************************************************************************************
+// ERRORS
+************************************************************************************************************************************************/
+
+.error-list li{
+  cursor: pointer;
+
+  -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.error-list li:hover{
+  border-top-color: #36A5B3;
+  border-right-color: #36A5B3;
+  border-bottom-color: #36A5B3;
+}
+
+/************************************************************************************************************************************************
+// EXCEPTIONS
+************************************************************************************************************************************************/
+
+.WiSecure_goExceptionsView, #WiSecure_exceptionsCol, .WiSecure_filterExceptions, .WiSecure_goCompileView{
+  display: none;
+}
+
+/****************
+// RESOLVE SELECT
+*****************/
+.WiSecure_viewExceptions tr.WiSecure_compileDataRow, .WiSecure_viewExceptions tr.WiSecure_referencesDataRow{
+  cursor: pointer;
+}
+
+.WiSecure_viewExceptions .WiSecure_compileDataRow.active td, .WiSecure_viewExceptions .WiSecure_referencesDataRow.active td{
+  background: #36A5B3;
+  color: #fff;
+}
+
+.saveExceptions{
+  margin: 0 15px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+
+/************************************************************************************************************************************************
+// FORMS
+************************************************************************************************************************************************/
+
+/****************
+// RESET PASSWORD
+*****************/
+.WiSecure_resetStage1{}
+.WiSecure_resetPasswordFormSubmit, .WiSecure_resetStage2, .WiSecure_resetStage3{ display: none; }
+
+.input-pin-code{}
+.input-pin-code input{ display: inline-block; width: 30px; padding:6px; text-align: center; }
+
+
+
+/************************************************************************************************************************************************
+// VERTICAL SPLIT
+************************************************************************************************************************************************/
+
+.vertical-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.vertical-container .vrow-10{ height: 10%; overflow: scroll; }
+.vertical-container .vrow-20{ height: 20%; overflow: scroll; }
+.vertical-container .vrow-30{ height: 30%; overflow: scroll; }
+.vertical-container .vrow-40{ height: 40%; overflow: scroll; }
+.vertical-container .vrow-50{ height: 50%; overflow: scroll; }
+.vertical-container .vrow-60{ height: 60%; overflow: scroll; }
+.vertical-container .vrow-70{ height: 70%; overflow: scroll; }
+.vertical-container .vrow-80{ height: 80%; overflow: scroll; }
+.vertical-container .vrow-90{ height: 90%; overflow: scroll; }
+
+
+/************************************************************************************************************************************************
+// TABLES 
+************************************************************************************************************************************************/
+
+table.fixed-table.fixed-cols-1{ margin-left: 100px;}
+table.fixed-table.fixed-cols-2{ margin-left: 200px;}
+
+table.fixed-table th, table.fixed-table td{ background: #fff; min-width: 150px; }
+
+table.fixed-table th.fixed-col-1, table.fixed-table td.fixed-col-1{ position: absolute; top: auto; left: 0; width: 100px; min-width: 100px; }
+table.fixed-table th.fixed-col-2, table.fixed-table td.fixed-col-2{ position: absolute; top: auto; left: 100px; width: 100px; min-width: 100px; }
+
+table.fixed-cols-1 th.fixed-col-1, table.fixed-cols-1 td.fixed-col-1{ border-right: solid 1px #eaeff0; }
+table.fixed-cols-2 th.fixed-col-2, table.fixed-cols-2 td.fixed-col-2{ border-right: solid 1px #eaeff0; }
+
+
+.table-outer{ position: relative; }
+.table-inner{ overflow-x: scroll; overflow-y: visible; width: calc(100% - 50px); margin-right: 50px; }
+table.table-fixed-right{ margin-right: 50px; }
+table.table-fixed-right .fake, table.table-fixed-right td{ position:relative; }
+table.table-fixed-right tbody th{ background: #fff; position: absolute; top: auto; right: 0; width: 50px; min-width: 50px; border-left:none; border-right:none; border-bottom: none; }
+
+table > tbody > tr.bg-light td{
+  border-color: #dee5e7;
+}
+
+.table-selectable > tbody > tr{
+  cursor: pointer;
+}
+
+.table-data-sm > tbody > tr > td, .table-data-sm > tbody > tr > th{
+  font-size: 13px;
+  padding: 6px;
+}
+
+.WiSecure_statementColumn_row{
+  -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+/************************************************************************************************************************************************
+// ACCORDION
+************************************************************************************************************************************************/
+.accordion-heading.collapsed i.text-collapse, .accordion-heading i.text-collapsed{ display: block; }
+.accordion-heading.collapsed i.text-collapsed, .accordion-heading i.text-collapse{ display: none; }
+
+
+.avatar span{
+  line-height: 34px;
+}
+
+
+
+/************************************************************************************************************************************************
+// HEADER
+************************************************************************************************************************************************/
+
+.nav.navbar-left > li{
+  min-width: 100px;
+}
+
+.nav > li div{
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 15px;
+}
+
+
+.col-header{
+  min-height: 55px;
+}
+.col-header h4, .col-header .nav-tabs-alt .nav-tabs > li > a{
+  line-height: 33px;
+}
+
+/************************************************************************************************************************************************
+// FOOTER
+************************************************************************************************************************************************/
+
+.footer-fixed{
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+
+  -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+.footer-fixed:hover{
+  background: rgba(255, 255, 255, 1);
+}
+
+.col-footer{ min-height: 55px;}
+
+/************************************************************************************************************************************************
+// COLOURS
+************************************************************************************************************************************************/
+
+.bg-white .bg-success.lter{
+  background-color: #48d46a;
+  color: #fff;
+}
+
+.bg-white .bg-danger.lter{
+  background-color: #f18282;
+  color: #fff;
+}
+
+.bg-white .bg-light.lter{
+  background-color: #f6f8f8;
+}
+.bg-white .bg-light.dk{
+  background-color: #e4eaec;
+}
+
+/************************************************************************************************************************************************
+// LOADING
+************************************************************************************************************************************************/
+
+.loading-overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.7;
+}
+.loading-overlay:before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  font: normal normal normal 40px/1 FontAwesome;
+  color: #002e48;
+  content: "\f1ce";
+  -webkit-animation: fa-spin 1s infinite linear;
+    animation: fa-spin 1s infinite linear;
+}
